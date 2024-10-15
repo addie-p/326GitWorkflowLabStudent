@@ -1,15 +1,17 @@
 // TODO: Fix the square root function not displaying
 function calculateSquareRoot(value) {
+  // return the square root of the value
   Math.sqrt(value);
 }
 
 // TODO: Implement square function
 function calculateSquare(value) {
   // Hint: Use exponentiation
+  // return the square root of the value
+  return value ** 2;
 }
 
 // TODO: FIX reciprocal function
-
 function calculateReciprocal(value) {
     // Hint: Reciprocal is 1/x
     // return the square root of the value

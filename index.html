@@ -10,17 +10,21 @@
             text-align: center;
         }
         #calculator {
+            background-color: rgb(235, 226, 250);
             width: 400px;
             margin: 0 auto;
             padding: 20px;
             border: 2px solid #000;
         }
         button {
+            color:rgb(121, 7, 26);
             width: 60px;
             height: 40px;
             font-size: 18px;
+            background-color: lightpink;
         }
         input {
+            background-color: rgb(187, 220, 248);
             width: 360px;
             height: 40px;
             text-align: right;
@@ -70,6 +74,41 @@
     <button onclick="appendToDisplay('.')">.</button>
 
      <!-- TODO: Add extra function operations -->
+     <script>
+         const display = document.getElementById("display");
+         display.addEventListener('keydown', function(event) {
+             if (event.keyCode === 48){
+                 appendToDisplay('0');
+             }
+             if (event.keyCode === 49){
+                 appendToDisplay('1');
+             }
+             if (event.keyCode === 50){
+                 appendToDisplay('2');
+             }
+             if (event.keyCode === 51){
+                 appendToDisplay('3');
+             }
+             if (event.keyCode === 52){
+                 appendToDisplay('4');
+             }
+             if (event.keyCode === 53){
+                 appendToDisplay('5');
+             }
+             if (event.keyCode === 54){
+                 appendToDisplay('6');
+             }
+             if (event.keyCode === 55){
+                 appendToDisplay('7');
+             }
+             if (event.keyCode === 56){
+                 appendToDisplay('8');
+             }
+             if (event.keyCode === 57){
+                 appendToDisplay('9');
+             }
+         });
+     </script>
 </div>
 
 <script src="calculator.js"></script>

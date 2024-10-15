@@ -17,3 +17,10 @@ describe('Calculator Calculation Functions', function() {
 
 
 // Add your tests here
+
+describe('Tangent Function', function() {
+    const res = calculator.tangent(0);
+    it('should return 0', function() {
+        assert.strictEqual(res, 0);
+    });
+});

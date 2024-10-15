@@ -32,7 +32,12 @@ function sine(value) {
 
 // TODO: Implement cosine function
 function cosine(value) {
+
+    // return the cosine of the value
+    return Math.cos(value);
+
   // return the cosine of the value
+
 }
 
 // TODO: Implement tangent function
@@ -41,7 +46,17 @@ function tangent(value) {
 }
 
 module.exports = {
+
+    calculateSquareRoot,
+    calculateSquare,
+    calculateReciprocal,
+    naturalLog,
+    sine,
+    cosine,
+    tangent
+
   calculateSquareRoot,
   calculateSquare,
   calculateReciprocal,
+
 };
